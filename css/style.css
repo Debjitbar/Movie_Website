@@ -20,6 +20,16 @@
     --container-color: #2d2e37;
     --text-color: #fcfeff;
 }
+/* Custom Scroll Bar */
+html::-webkit-scrollbar{
+    width: 0.52rem;
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--main-color);
+}
+
 
 a {
     text-decoration: none;
@@ -310,3 +320,6 @@ header {
     font-size: 18px !important;
     font-weight: 700 !important;
 }
+
+
+
