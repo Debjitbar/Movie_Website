@@ -122,7 +122,15 @@ header {
     background: var(--body-color);
     z-index: 100;
 }
-
+.gap
+{  
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-color: var(--container-color);
+    height: 52px;
+}
 
 /* Nav */
 
