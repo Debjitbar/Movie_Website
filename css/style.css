@@ -20,16 +20,18 @@
     --container-color: #2d2e37;
     --text-color: #fcfeff;
 }
+
+
 /* Custom Scroll Bar */
-html::-webkit-scrollbar{
+
+html::-webkit-scrollbar {
     width: 0.52rem;
     background: transparent;
 }
 
-html::-webkit-scrollbar-thumb{
+html::-webkit-scrollbar-thumb {
     background: var(--main-color);
 }
-
 
 a {
     text-decoration: none;
@@ -132,8 +134,8 @@ header {
     background: var(--body-color);
     z-index: 100;
 }
-.gap
-{  
+
+.gap {
     border-top-width: 0px;
     border-left-width: 0px;
     border-right-width: 0px;
@@ -141,6 +143,7 @@ header {
     border-color: var(--container-color);
     height: 52px;
 }
+
 
 /* Nav */
 
@@ -322,4 +325,10 @@ header {
 }
 
 
+/* Play Container */
 
+.play-container {
+    position: relative;
+    min-height: 540px;
+    margin-top: 5rem !important;
+}
