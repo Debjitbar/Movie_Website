@@ -3,7 +3,7 @@ var swiper = new Swiper(".popular-content", {
     slidesPerView: 1,
     spaceBetween: 10,
     autoplay: {
-        delay: 10000,
+        delay: 1000,
         disableOnInteraction: false,
     },
     pagination: {
